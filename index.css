@@ -467,4 +467,16 @@
         padding-right: 15px;
     }
 
+    .container-project > .project1 {
+        margin-left: 0px;
+    }
+    
+    .container-project > .project4 {
+        margin-right: 0px;
+    }
+    
+    .container-project > .project5 {
+        margin-left: 0px;
+    }
+
 }
