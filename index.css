@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    background-color: #707070;
+    width: 350px;
+    padding: 35px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header > img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.header > .nav {
+    margin-top: 50px;
+    font-family: 'Noto Serif Lao', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.nav > ul {
+    list-style: none;
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+.nav > ul > li {
+    margin-bottom: 15px;
+}
+
+.nav > ul > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav > ul > li :hover {
+    color: #fff;
+}
+
+.main {
+    /* background-color: greenyellow; */
+    flex-grow: 1;
+    /* width: 50%; */
+}
+
+/* section welcome */
+
+.main > .welcome {
+    background-image: url(https://images.unsplash.com/photo-1553877447-473249d55b7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1954&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome > .container-wel {
+    /* background-color: aqua; */
+    /* flex-grow: 1; */
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 300px;
+}
+
+.container-wel > h1 {
+    color: rgb(244, 255, 223);
+    font-family: 'Noto Serif Lao', serif;
+    font-size: 34px;
+    /* font-weight: 600; */
+}
+
+.container-wel > p {
+    color: rgb(244, 255, 223);
+    font-family: 'Noto Serif Lao', serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-wel > .p1 {
+    margin-top: 20px;
+}
+
+.container-wel > .p2 > span {
+    color: rgb(216, 233, 62);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+/* section about me */
+.aboutme {
+    /* background-color: #ffffff; */
+    color: #000000;
+    font-family: 'Noto Serif Lao', serif;
+}
+
+.aboutme > h1 {
+    margin: 25px 0px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.aboutme > .container-contain {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-contain > .picture-me {
+    padding-left: 50px;
+}
+
+.container-contain > .picture-me > img {
+    width: 250px;
+}
+
+.container-contain > .aboutme-contain {
+    padding-left: 50px;
+    padding-top: 125px;
+    /* background-color: antiquewhite; */
+}
+
+.container-contain > .aboutme-contain > p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.container-contain > .aboutme-contain > p > span{
+    margin-left: 10px;
+}
+
+/* section education */
+
+.education {
+    padding-top: 50px;
+    font-family: 'Noto Serif Lao', serif;
+}
+
+.education > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.container-education {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container-education > img {
+    width: 200px;
+    order: 2;
+    padding-right: 20px;
+}
+
+.container-education > .education-contain {
+    padding-left: 70px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.container-education > .education-contain > ul {
+    font-size: 20px;
+}
+
+.education-contain > ul > li > span {
+    margin-left: 10px;
+}
+
+/* section skill */
+
+.skills {
+    margin-top: 50px;
+    font-family: 'Noto Serif Lao', serif;
+    /* color: rgb(244, 255, 223); */
+    background-position: center;
+    background-size: cover;
+}
+
+.skills > h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.container-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+/* .container-skills > div {
+    background-color: blanchedalmond;
+    border: 2px solid black;
+} */
+
+.container-skills > .skill1 {
+    padding-left: 15px;
+}
+
+/* .container-skills > .skill2 {
+    padding-left: 10px;
+} */
+
+.container-skills > .skill3 {
+    padding-right: 20px;
+}
+
+.skill1 > h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.skill1 > p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.skill2 > h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.skill3 > h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.skill2 > p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill2 > p > span {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.skill2 > p > img {
+    width: 40px;
+}
+
+.skill2 > .p2 {
+    margin-top: 25px;
+}
+
+
+.skill3 > p {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.skill3 > p > img {
+    width: 40px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
+
+/* section project */
+
+.project {
+    margin-top: 50px;
+    font-family: 'Noto Serif Lao', serif;
+}
+
+.project > h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.project > .container-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.container-project > div {
+    background-color: #F2F2F2;
+}
+
+.container-project > .project1 {
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.container-project > div > h2 {
+    font-size: 18px;
+}
+
+.container-project > .project4 {
+    margin-right: 20px;
+}
+
+.container-project > .project5 {
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+
+/* section project */
+
+.contact {
+    margin-top: 50px;
+    font-family: 'Noto Serif Lao', serif;
+    padding-bottom: 50px;
+    color: rgb(244, 255, 223);
+    background-color: #303030;
+}
+
+.contact > h1 {
+    text-align: center;
+    font-size: 26px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact > .container-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-contact > div {
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-contact > div > i {
+    margin-right: 10px;
+}
+
+
+
+
+
+/* responsive size */
+
+@media only screen and (max-width: 1000px) {
+
+    /* header responsive */
+    .container-page {
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .header > .nav {
+        display: none;
+    }
+    
+    /* main responsive */
+    .main {
+        width: 100%;
+    }
+
+
+    /* section welcom responsive */
+    .welcome > .container-wel {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    /* section about me */
+    .aboutme > .container-contain {
+        flex-direction: column;
+    }
+
+    .container-contain > .picture-me {
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .container-contain > .aboutme-contain {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    
+    .container-contain > .aboutme-contain > p > span{
+        margin-left: 5px;
+    }
+
+    /* section education */
+    .container-education {
+        flex-direction: column;
+        align-items: end;
+    }
+    
+    
+    .container-education > img {
+        width: 100px;
+        order: 0;
+        padding-right: 40px;
+    }
+    
+    .container-education > .education-contain {
+        padding-left: 45px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .education-contain > ul > li > span {
+        margin-left: 5px;
+    }
+
+    /* section skill */
+    .skill2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .skill3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact > .container-contact {
+        flex-direction: column;
+    }
+
+    .contact > .container-contact > div {
+        padding-bottom: 20px;
+    }
+}
+
+/* responsive grid */
+
+@media only screen and (max-width: 680px) {
+    .container-skills {
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+
+    .project > .container-project {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .container-project > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
