@@ -297,6 +297,7 @@
 
 .container-project > div {
     background-color: #F2F2F2;
+    padding: 10px;
 }
 
 .container-project > .project1 {
